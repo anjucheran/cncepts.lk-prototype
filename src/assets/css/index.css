@@ -1,0 +1,55 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	background: url("back.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#logo{
+	height: 2.3rem;
+}
+
+button{
+	margin-right: 15px;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+.navbar{
+	padding-left: 10rem;
+	padding-right: 10rem;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+	color: #007bbf;
+}
+
+.dropdown-menu{
+	padding: 0;
+	background-color: #737373;
+}
+
+.dropdown-item{
+	color: #0d3863;
+	padding: 0.4rem 1.5rem;
+}
+
+.dropdown-item:hover{
+	background-color: #5a6269;
+}
+
+.jumbotron{
+	text-align: center;
+	margin-top: 10%;
+}
